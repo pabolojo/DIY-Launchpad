@@ -12,7 +12,7 @@
 |1|Rubber Pad|20|<img src="Images/Pad.png" alt="drawing" width="200"/>|
 |1|Arduino Pro Micro|2.5|<img src="Images/Arduino_Pro_Micro.png" alt="drawing" width="200"/>|
 |80|WS2812B RGB LEDs|8|<img src="Images/LEDs.png" alt="drawing" width="200"/>|
-|5|MCP23017 - E/SO|4|<img src="Images/MCP23017.png" alt="drawing" width="200"/>|
+|5|MCP23017 - E/SS|4|<img src="Images/MCP23017.png" alt="drawing" width="200"/>|
 |1|3D Printed pieces Set|15|<img src="Images/3D_Models.png" alt="drawing" width="200"/>|
 |1|PCB Launchpad Set|10|<img src="Images/PCBs.png" alt="drawing" width="200"/>|
 
