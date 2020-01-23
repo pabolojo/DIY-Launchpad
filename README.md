@@ -24,7 +24,7 @@
 |Tin|<img src="Images/Tin.png" alt="drawing" width="200"/>|
 |Wires|<img src="Images/Wires.png" alt="drawing" width="200"/>|
 
-2. Then you will need to solder the MCP23017-E/SO integrated circuits to the PCBs using the Hot Air gun, as well as the PCBs one another connecting their pads, and the WS2812B RGB LEDs with the aid of the Tin Solder and metal wire. Then make the following connections between the Arduino Pro Micro and the PCBs:
+2. Then you will need to solder the MCP23017-E/SO integrated circuits to the PCBs using the Hot Air gun, as well as the PCBs one another connecting their pads, and the WS2812B RGB LEDs with the aid of the Tin Solder and metal wire. Assign an different address to each one of the PCBs by shortcuting A0, A1 and A2 either with GND or VCC. Then make the following connections between the Arduino Pro Micro and the PCBs:
 
 |Arduino Pin|PCB Pad|
 |:------:|:------:|
@@ -43,7 +43,7 @@ You may also make sure to connect the first WS2812B RGB LED of your array to the
 
 As well as the interrupt pads of the PCBs (grouping them by pairs) as shown:
 
-|Arduino Pin|Interrupt|
+|Arduino Pin|Interrupt (INT)|
 |:------:|:------:|
 |0|1 and 2|
 |1|3 and 4|
@@ -53,10 +53,10 @@ The final result should be something like this:
 
 ![](Images/Launchpad_Assembly.jpeg)
 
-3. Flash the firmware to the Arduino Pro Micro, 3D print the housing, assemble everything and enjoy. :)
+3. Flash the firmware to the Arduino Pro Micro, 3D print the housing, assembly everything and enjoy. :)
 
 ![](Images/Launchpad_Result.gif)
 
-### This is still an ongoing project, and many things have to be fixed/improved yet, feel free to comment the project or make any sugestion you think it would make it better!
+## This is still an ongoing project, and many things have to be fixed/improved yet, feel free to comment the project or make any suggestion you think it would make it better!
 
 If you want to know what I am currently working on, visit http://psoetardgarcia.ga/
